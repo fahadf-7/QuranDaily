@@ -32,8 +32,8 @@ import android.widget.ImageButton
 private const val CLIENT_ID = "f09c3d3c-4f3d-4348-95e2-e7de1671e948"
 private const val CLIENT_SECRET = "40_nOTEmKGQ6~I4gUETqopbqfb"
 
-private const val OAUTH_BASE = "https://oauth2.quran.foundation/"
-private const val API_BASE = "https://api.quran.com/api/v4/"
+private const val OAUTH_BASE = "" // add api
+private const val API_BASE = ""
 
 // --------------------------------------------------
 // Activity
