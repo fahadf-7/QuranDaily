@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_quran_reader"
+        android:icon="@drawable/ic_book"
+        android:title="Quran Reader" />
+
+    <item
+        android:id="@+id/nav_habits_tracker"
+        android:icon="@drawable/ic_check_circle"
+        android:title="Habits Tracker" />
+
+    <item
+        android:id="@+id/nav_ayah_day"
+        android:icon="@drawable/ic_help"
+        android:title="Aayah of the Day" />
+
+    <item
+        android:id="@+id/nav_facts_miracles"
+        android:icon="@drawable/ic_lightbulb"
+        android:title="Facts and Miracles" />
+
+</menu>

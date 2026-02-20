@@ -1,0 +1,30 @@
+<resources>
+
+    <string-array name="habit_categories">
+        <item>Worship</item>
+        <item>Learning</item>
+        <item>Charity</item>
+        <item>Character</item>
+        <item>Health</item>
+    </string-array>
+
+    <string-array name="habit_priorities">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+
+    <string-array name="habit_times">
+        <item>Morning</item>
+        <item>Afternoon</item>
+        <item>Evening</item>
+        <item>Night</item>
+    </string-array>
+
+    <string-array name="habit_units">
+        <item>times</item>
+        <item>minutes</item>
+        <item>hours</item>
+    </string-array>
+
+</resources>

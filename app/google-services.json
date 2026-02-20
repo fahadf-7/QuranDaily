@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "516223591032",
+    "project_id": "qurandaily-d6586",
+    "storage_bucket": "qurandaily-d6586.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516223591032:android:091ba6d518fd3f403d838d",
+        "android_client_info": {
+          "package_name": "com.example.qurandaily"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9qsugkCDR8ujd-j9aobEk8qr5u21lV6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

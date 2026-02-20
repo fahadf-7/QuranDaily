@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <!-- Scrollable content (fields only) -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp">
+
+            <!-- Habit Title -->
+            <EditText
+                android:id="@+id/et_title"
+                android:hint="Habit Title *"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Description -->
+            <EditText
+                android:id="@+id/et_description"
+                android:hint="Description *"
+                android:minLines="2"
+                android:gravity="top"
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Category -->
+            <Spinner
+                android:id="@+id/spinner_category"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Priority -->
+            <Spinner
+                android:id="@+id/spinner_priority"
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Preferred Time -->
+            <Spinner
+                android:id="@+id/spinner_time"
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Daily Target -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/et_daily_target"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:hint="Daily Target"
+                    android:layout_height="wrap_content" />
+
+                <Spinner
+                    android:id="@+id/spinner_unit"
+                    android:layout_marginStart="12dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!-- Reminder Note -->
+            <EditText
+                android:id="@+id/et_reminder"
+                android:hint="Reminder Note (Optional)"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Fixed button area at bottom -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:text="Cancel"
+            android:background="#E0E0E0"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <Button
+            android:id="@+id/btn_create"
+            android:text="Create Habit"
+            android:background="@drawable/button_green_background"
+            android:textColor="#ffffff"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+    </LinearLayout>
+
+</LinearLayout>
